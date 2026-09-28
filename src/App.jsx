@@ -1,4 +1,5 @@
 import { useState } from 'react'
+
 import {
   ArrowDownRight,
   ArrowUpRight,
@@ -88,7 +89,10 @@ function App() {
           </div>
           <div className="hero-visual reveal-up delay-one">
             <div className="image-frame">
-              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=900&q=85" alt="Portrait of Muhammad Muslim" />
+              <img
+                src="https://i.postimg.cc/ZRstznZX/1000439673.jpg"
+                alt="Portrait of Muhammad Muslim"
+              />
               <div className="image-stamp">MM<br /><span>01 / 25</span></div>
             </div>
             <div className="scroll-note"><span /> Scroll to explore</div>
